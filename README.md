@@ -26,6 +26,7 @@ All notable changes to this project will be documented in this section.
 |         |              | - Fixed 'has' in YAML.                                                    |
 |         |              | - This release is the stable version.                                     |
 | 1.6.9   | 2023-09-21   | - Fixed an issue in SQLite driver where the `nestedEnabled` parameter was not functioning correctly in 'get' and 'set' methods.       |
+| 1.6.15   | 2023-09-21   | - Fixed an issue in SQLite driver where the `nestedEnabled` parameter was not functioning correctly in 'delete', 'delete' and 'pull' method.       |
 
 ## How To Use
 
@@ -543,4 +544,4 @@ The SQLite implementation of the database provides a powerful way to store and m
 
 - Developed By: [Joe](https://discord.com/users/833340407130882068)
 
-This version of `good.db` is 1.6.9.
+This version of `good.db` is 1.6.15.
